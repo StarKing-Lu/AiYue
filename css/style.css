@@ -1,0 +1,306 @@
+/* 公共样式 */
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark, audio,video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei","simSun",Arial,"Lucida Grande","Lucida Sans Unicode";
+	font-size: 12px;
+	color: #333;
+	box-sizing: border-box;	
+	-webkit-box-sizing: border-box;	
+	-moz-box-sizing: border-box;	
+	-ms-box-sizing: border-box;	
+}
+a{
+	box-sizing: border-box;	
+	-webkit-box-sizing: border-box;	
+	-moz-box-sizing: border-box;	
+	-ms-box-sizing: border-box;		
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*html,body{
+	width: 100%;
+	min-width: 1200px;
+}*/
+img{
+	display: block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear{ 
+	clear:both; 
+	line-height:0; 
+	height:0; 
+}
+/* 首页页面 */
+/* 头部 */
+.header{
+	height: 90px;
+	background-color: #fff;
+	position: relative;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.header h1{
+	width: 160px;
+	position: absolute;
+	top: 12px;
+	left: 122px;
+}
+.header h1 img{
+	width: 100%;
+}
+.header ul{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header ul li{
+	float: left;
+	margin-right: 120px;
+}
+.header ul li a{
+	display: inline-block;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: 2px;
+	height: 90px;
+	line-height: 90px;
+	border-bottom: 3px solid #fff;
+}
+.header ul li.curr a{
+	color: #00aaee;
+	border-bottom-color: #0087dd;
+}
+/* 内容 */
+.content{
+	height: 873px;
+	background: url('../images/bg.jpg') no-repeat center center;
+	padding-top: 178px;
+	min-width: 1200px;
+	margin: 0 auto;	
+}
+.ewm_w{
+	float: right;
+	width: 1000px;
+	height: 476px;
+	background: url('../images/ewm_bg.png') no-repeat center center;
+	background-size: 100%;
+	margin-right: 3%;
+	position: relative;
+}
+.ewm_w .btns{
+	position: absolute;
+	bottom: 106px;
+	right: 168px;
+	width: 383px;
+}
+.ewm_w .btns a{
+	display: block;
+	margin-top: 10px;
+}
+.ewm_w .btns a img{
+	width: 100%;
+}
+/* 底部 */
+.footer{
+	text-align: center;
+	padding-top: 24px;
+	min-width: 1200px;
+	margin: 0 auto;	
+}
+.footer ul{
+	width: 510px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer ul li{
+	float: left;
+	font-size: 18px;
+}
+.footer ul li.line{
+	margin: 0 28px;
+}
+.footer ul li a{
+	font-size: 18px;
+	color: #666;
+	letter-spacing: 2px;
+}
+.footer p{
+	font-size: 14px;
+	padding: 16px 0;
+	color: #666;
+	letter-spacing: 2px;
+	/*line-height: 24px;*/
+}
+.footer p img{
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+}
+
+/* 开放接入页面 */
+/* 内容 */
+.content_k{
+	position: relative;
+	min-width: 1200px;
+	margin: 0 auto;		
+}
+.content_wrap{
+	height: 120px;
+	background-color: #20afee;		
+}
+.content_wraps{
+	height: 120px;
+	width: 876px;
+	margin: 0 auto;
+	padding-top: 28px;
+}
+.content_wraps a{
+	display: block;
+	width: 256px;
+	height: 64px;
+	line-height: 57px;
+	border-radius: 26px;
+	border: 2px solid #fff;
+	background: #3ebaf3 url('../images/login.png') no-repeat 63px center;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 118px;
+	letter-spacing: 16px;
+}
+.wrap_reg a{
+	background: #3ebaf3 url('../images/reg.png') no-repeat 63px center;
+}
+.swiper_w1 img{
+	margin: 0 auto;
+}
+.swiper_w1{
+	/*background-color: #eb6580;*/
+	padding: 47px 0;
+	/*box-shadow: 0px 2px 30px 0px #fd4067 inset;*/
+	background: url('../images/kf_bg.jpg') no-repeat center center;
+}
+.swiper_page{
+	position: absolute;
+	bottom: 22px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 2;
+}
+.swiper_page span{
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 50%;
+	margin-right: 12px;
+	opacity: 1;
+}
+.swiper_page span:last-child{
+	width: 50px;
+	border-radius: 20px;
+}
+.content_k .swiper-pagination-bullet-active{
+	background: rgba(255, 255, 255, 1);
+}
+
+/* 联系我们页面 */
+/* 内容 */
+.content_c{
+	min-width: 1200px;
+	margin: 0 auto;		
+	height: 713px;
+	padding-top: 135px;
+	background: url('../images/contact_bg.jpg') no-repeat center center;
+}
+.contact_w{
+	width: 840px;
+	height: 442px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0 #ddd; 
+	padding: 50px 0 50px 57px;
+}
+.contact_e{
+	padding: 40px 73px 36px 0;
+	border-right: 1px solid #ddd;
+}
+.contact_infor{
+	padding: 52px 0 0 80px;
+	text-align: center;
+}
+.contact_infor h2{
+	font-size: 30px;
+	padding: 34px 0 60px;
+	letter-spacing: 6px;
+	color: #00aaee;
+}
+.contact_infor p{
+	font-size: 25px;
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+/* 纠纷处理页面 */
+.content_c_d{
+	min-width: 1200px;
+	margin: 0 auto;	
+	padding: 70px 0;
+	background-color: #f8f8f8;	
+}
+.dispute_w{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0 #ddd; 
+	padding: 20px 30px 30px;
+}
+.dispute_w h2{
+	font-size: 22px;
+	text-align: center;
+	font-weight: 500;
+	padding: 10px 0 30px;
+}
+.dispute_w p{
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 2em;
+	margin: 10px 0;
+}
+
+
+/* 屏幕适配 */
+@media screen and (min-width: 1300px){
+	.ewm_w{
+		margin-right: 6%;
+	}
+}
+@media screen and (min-width: 1400px){
+	.ewm_w{
+		margin-right: 8%;
+	}
+}
+@media screen and (min-width: 1600px){
+	.ewm_w{
+		margin-right: 12%;
+	}
+}
+@media screen and (min-width: 1800px){
+	.ewm_w{
+		margin-right: 18%;
+	}
+}
